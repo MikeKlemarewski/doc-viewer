@@ -1,0 +1,20 @@
+extends layout
+
+block content
+	div#title
+		<h2>SFU Engage</h2>
+
+	div#docList
+		ul#docs
+			each doc in docs
+				<li onclick="loadDocument('#{doc}');">#{doc}</li>
+
+	div#viewer
+
+		div#tabs
+			<span>Tab 1</span>
+			<span>Tab 2</span>
+			<span>Tab 3</span>
+			<span>Tab 4</span>
+
+		<iframe id="documentViewer" src="http://docs.google.com/gview?url=http://174.7.105.30:8080/docs/Slide1.pdf&embedded=true" frameborder="0"></iframe>

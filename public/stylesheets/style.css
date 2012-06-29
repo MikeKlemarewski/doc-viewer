@@ -1,0 +1,28 @@
+#title{
+}
+
+#tabs span{
+	padding:0px 20px 0px 20px;
+	border-right:1px solid #999;	
+}
+
+#docList{
+	float:left;
+	margin-right:50px;
+}
+
+#docList li{
+	list-style-type:none;
+	margin:30px 0px 10px 0px;
+	border-bottom: 1px solid #999;
+}
+
+#docList li:hover{
+	cursor:pointer;
+}
+
+#documentViewer{
+	margin: 10px 0px 0px 0px;
+	width:600px;
+	height:500px;
+}
